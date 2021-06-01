@@ -359,7 +359,7 @@
                   </thead>
                     <?php
                   require 'koneksi.php';
-                  $sql=mysqli_query("SELECT * from pengaduan");
+                 $sql=mysqli_query($conn,"INSERT into pengaduan ");
                   while ($data=mysqli_fetch_array($sql)){
 
                   ?>
@@ -371,7 +371,15 @@
                       <td><?php echo $data['isi_laporan'];?></td>
                       <td><?php echo $data['foto'];?></td>
                       <td><?php echo $data['Status'];?></td>
-                      <td>Detail Tanggapan</td>
+                      <td>
+                        <!--button-->
+                         <a href="#" class="btn btn-success btn-icon-split">
+                         <span class="icon text-white-50">
+                         <i class="fas fa-check"></i>
+                         </span>
+                        <span class="text">Split Button Success</span>
+                  </a>
+                      </td>
                     </tr>
                     
                   </tbody>
