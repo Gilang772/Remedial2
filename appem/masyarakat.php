@@ -1,3 +1,15 @@
+<?php
+session_start();
+if (!isset($_SESSION['nama']))
+{
+die("Anda belum login ngab");
+}
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,7 +73,7 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="?url=tulis_pengaduan">
+        <a class="nav-link" href="tulispengaduan.php">
           <i class="fas fa-edit"></i>
           <span>Tulis pengaduan</span></a>
       </li>
@@ -69,7 +81,7 @@
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
  <li class="nav-item">
-        <a class="nav-link" href="?url=lihat_laporang">
+        <a class="nav-link" href="?url=lihat_laporan">
           <i class="fas fa-search"></i>
           <span>Lihat laporan</span></a>
       </li>
@@ -104,7 +116,7 @@
 <h1>Aplikasi Pengaduan Masyarakat</h1>
          
           </ul>
-
+  
         </nav>
         <!-- End of Topbar -->
 
@@ -112,7 +124,7 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>
+     <?php include 'halamanmasyarakat.php';?>
 
         </div>
         <!-- /.container-fluid -->
@@ -124,7 +136,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+            <span>Copyright &copy;Nur Gilang Setra</span>
           </div>
         </div>
       </footer>

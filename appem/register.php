@@ -39,24 +39,24 @@
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">selamat datang!</h1><h3>Di Aplikasi Pengaduan Masyarakat</h3>   
                   </div>
-                  <form class="user" method="post" action="cek_login.php>">
+                  <form class="user" method="post" action="simpan_masyarakat.php">
                     <div class="form-group">
-                      <input type="text" name="nik" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="masukan nik">
+                      <input type="number" name="nik" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="masukan nik">
                     </div>
                     <div class="form-group">
                       <input type="text" name ="Nama" class="form-control form-control-user" placeholder="Nama">
                     </div>
 
                     <div class="form-group">
-                      <input type="text" name="username" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="masukan username">
+                      <input type="text" name="Username" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="masukan username">
                     </div>
 
                     <div class="form-group">
-                      <input type="password" name="password" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="masukan password">
+                      <input type="password" name="Password" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="masukan password">
                     </div>
 
                     <div class="form-group">
-                      <input type="text" name="telp" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="masukan NO.HP">
+                      <input type="number" name="telp" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="masukan NO.HP">
                     </div>
                     <div class="form-group">
                        
@@ -67,6 +67,7 @@
                     <hr>
                    
                   </form>
+
                   <div class="text-center">
                     Sudah punya akun?<br>
                     <a class="small" href="index.php">Login?</a>

@@ -39,12 +39,12 @@
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">selamat datang!</h1><h3>Di Aplikasi Pengaduan Masyarakat</h3>   
                   </div>
-                  <form class="user" method="post" action="cek_login.php>">
+                  <form class="user" method="post" action="cek_login.php">
                     <div class="form-group">
-                      <input type="text" name="username" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="masukan username">
+                      <input type="text" name="Username" class="form-control form-control-user" aria-describedby="emailHelp" placeholder="masukan username">
                     </div>
                     <div class="form-group">
-                      <input type="password" name ="password" class="form-control form-control-user" placeholder="password">
+                      <input type="password" name ="Password" class="form-control form-control-user" placeholder="password">
                     </div>
                     <div class="form-group">
                        
