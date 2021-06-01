@@ -81,7 +81,7 @@ die("Anda belum login ngab");
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
  <li class="nav-item">
-        <a class="nav-link" href="?url=lihat_laporan">
+        <a class="nav-link" href="Lihat_laporan.php">
           <i class="fas fa-search"></i>
           <span>Lihat laporan</span></a>
       </li>
